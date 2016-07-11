@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvCi6XrA2gUaFoomVIWf0LAAAAAACAAAAAAAQZgAAAAEAACAAAABrL7Nz6a7BAvquGmCzLypabnALCHVxGumtSoAKzYF5GQAAAAAOgAAAAAIAACAAAAB7SQxGfr/4Wlok7ObJ8pXUFI4kJVhdUbC2jeu+ivWomSAAAADc8a9NjViEXUBqk58+0jeVmcW71OGNbzRdiKTIIE2WP0AAAABnMa3C4M7WrPht0VGi95dcNE9YqYkFrTuIZJMVBtCl4XBRVa0e+nW/flZEyYlHWKCVoPA6vLZ/4BA+Y3xPDlU5</EncryptedPassword>
+    <_PublishTargetUrl>ftp://busist.somee.com/www.busist.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>06/29/2016 17:15:38</publishTime>
+    </File>
+    <File Include="Account/Manage.aspx">
+      <publishTime>06/29/2016 17:15:41</publishTime>
+    </File>
+    <File Include="Account/OpenAuthProviders.ascx">
+      <publishTime>06/29/2016 17:15:41</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>06/29/2016 17:15:41</publishTime>
+    </File>
+    <File Include="Account/RegisterExternalLogin.aspx">
+      <publishTime>06/29/2016 17:15:41</publishTime>
+    </File>
+    <File Include="Account/Web.config">
+      <publishTime>06/29/2016 17:15:41</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>06/29/2016 17:16:24</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>06/29/2016 17:16:28</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>06/29/2016 17:16:28</publishTime>
+    </File>
+    <File Include="bin/Busist.dll">
+      <publishTime>06/29/2016 20:35:41</publishTime>
+    </File>
+    <File Include="bin/Busist.pdb">
+      <publishTime>06/29/2016 20:35:41</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>06/29/2016 17:16:37</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>06/29/2016 17:16:34</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>06/29/2016 17:16:35</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>06/29/2016 17:16:35</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>06/29/2016 17:16:36</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>06/29/2016 17:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>06/29/2016 17:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>06/29/2016 17:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>06/29/2016 17:16:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>06/29/2016 17:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>06/29/2016 17:16:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>06/29/2016 17:16:33</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="Contact.aspx">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/29/2016 17:16:44</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>06/29/2016 17:15:42</publishTime>
+    </File>
+    <File Include="Site.Mobile.Master">
+      <publishTime>06/29/2016 17:16:44</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>06/29/2016 17:16:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/29/2016 20:36:05</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
