@@ -1,10 +1,9 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Busist.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Busist.Master" %>
 
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="15" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
     <asp:PlaceHolder runat="server">     
           <%: Scripts.Render("~/bundles/modernizr") %>
@@ -32,29 +31,7 @@
              };
 
              var map = new google.maps.Map(document.getElementById("map-canvas"), mapProp);
-             var count = document.getElementById("count").value;
-             var markers = new Array(parseInt(count));
-             for (var i = 0; i < markers.length; i++)
-             {
-                 var hField = document.getElementById("marker_" + i);
-                 var str1 = hField.value.substring(0, hField.value.indexOf(","));
-                 var str2 = hField.value.substring(hField.value.indexOf(",")+1, hField.value.indexOf("|"));
-                 var str3 = hField.value.substring(hField.value.indexOf("|") + 1, hField.value.length);
-                 var a = parseFloat(str2);
-                 var b = parseFloat(str3);
-                 myCenter = new google.maps.LatLng(a,b);
-                 var marker = new google.maps.Marker({
-                     position: myCenter,
-                     
-                 });
-                 var infowindow = new google.maps.InfoWindow();
-
-                 google.maps.event.addListener(marker, 'click', function () {
-                     infowindow.setContent('<div><strong>' + str1 + '</strong><br></div>');
-                     infowindow.open(map, this);
-                 });
-                 marker.setMap(map);
-             }
+             
 
              //var marker = new google.maps.Marker({
              //    position: myCenter,

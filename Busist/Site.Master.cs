@@ -55,7 +55,7 @@ namespace Busist
 
             string str = Request.Url.AbsolutePath;
             str = str.Remove(str.IndexOf('/'), 1);
-            if (str.Trim().ToLower() == "default.aspx")
+            if (str.Trim().ToLower() == "view-d-admin.aspx")
             {
                 HiddenField h1 = new HiddenField();
                 h1.ID = "count";
